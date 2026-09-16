@@ -46,7 +46,7 @@ jobs:
           script: |
             adb install -r ShopDemo.apk
             mkdir -p reports/debug
-            maestro test --format JUNIT --output reports/resultado.xml --debug-output reports/debug flows/s3-suite-shopdemo/
+            maestro test --format JUNIT --output reports/resultado.xml --debug-output reports/debug --test-output-dir reports/debug flows/s3-suite-shopdemo/
 
       - name: Publish JUnit report
         uses: actions/upload-artifact@v7
@@ -57,7 +57,7 @@ jobs:
           if-no-files-found: warn
 
       - name: Publish Maestro debug files
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         if: always()
         with:
           name: maestro-debug
