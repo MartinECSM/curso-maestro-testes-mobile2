@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites>
+  <testsuite name="Test Suite" device="Pixel_9" tests="4" failures="0" time="154.07" timestamp="2026-09-15T16:15:27">
+    <testcase id="01-login" name="01-login" classname="01-login" file="flows\s3-suite-shopdemo\01-login.yaml" time="20.107" timestamp="2026-09-15T16:15:27" status="SUCCESS"/>
+    <testcase id="02-catalog" name="02-catalog" classname="02-catalog" file="flows\s3-suite-shopdemo\02-catalog.yaml" time="32.73" timestamp="2026-09-15T16:15:47" status="SUCCESS"/>
+    <testcase id="03-carrinho-checkout" name="03-carrinho-checkout" classname="03-carrinho-checkout" file="flows\s3-suite-shopdemo\03-carrinho-checkout.yaml" time="46.812" timestamp="2026-09-15T16:16:19" status="SUCCESS"/>
+    <testcase id="04-e2e-compra" name="04-e2e-compra" classname="04-e2e-compra" file="flows\s3-suite-shopdemo\04-e2e-compra.yaml" time="54.384" timestamp="2026-09-15T16:17:06" status="SUCCESS"/>
+  </testsuite>
+</testsuites>

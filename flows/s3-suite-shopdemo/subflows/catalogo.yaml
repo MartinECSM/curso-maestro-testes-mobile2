@@ -1,4 +1,4 @@
-appId: com.example.app
+appId: com.curso.shopdemo
 env:
     PRODUTO_CATALOGO: '${PRODUTO_CATALOGO || "Smartphone Pro 128GB"}'
     PRECO_CATALOGO: '${PRECO_CATALOGO || "1.899,90"}'

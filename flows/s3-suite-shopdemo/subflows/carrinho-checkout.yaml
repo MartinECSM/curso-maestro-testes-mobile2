@@ -1,6 +1,6 @@
-appId: com.example.app
+appId: com.curso.shopdemo
 env:
-    PRODUTO_CARRINHO: ${PRODUTO_CARRINHO || "Fone de OuvidoBluetooth"}
+    PRODUTO_CARRINHO: ${PRODUTO_CARRINHO || "Fone de Ouvido Bluetooth"}
     PRECO_PRODUTO: ${PRECO_PRODUTO || "159,90"}
     TOTAL_CARRINHO: '${TOTAL_CARRINHO || "159,90"}'
     NOME: ${NOME || "Jeferson"}
